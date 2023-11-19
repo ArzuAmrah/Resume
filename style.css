@@ -1,0 +1,800 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: rgba(255, 255, 255, 0.4);
+    background: #222;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.all {
+    position: relative;
+}
+
+/* first */
+.first-page {
+    background-image: url(img/image_1.jpg..webp);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+.greating{
+    color: white;
+    font-weight: 100;
+}
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+}
+.person{
+    text-align: center;
+    color: white;
+    padding-top: 300px
+}
+.mine-cv{
+    text-transform: uppercase;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 20px;
+    word-spacing: 5px;
+}
+.name{
+    font-weight: 900;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    z-index: 0;
+    color: white;
+}
+.greating{
+    font-family: "Helvetica-Neue";
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.list1 {
+    padding: 20px;
+    position: absolute;
+}
+
+.first-list {
+    position: fixed;
+    right: 35%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.list-style {
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.list-item{
+color: white;
+}
+
+
+.list1 {
+    color: white;
+    font-weight: 900;
+}
+
+
+
+/* SECOND */
+
+.second{
+    width: 100%;
+    height: 100vh;
+}
+
+.head2 {
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.change {
+    color: white;
+    font-weight: 100;
+    padding-left: 7%;
+}
+
+.word {
+    font-weight: 900;
+}
+
+.second-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 25px;
+}
+
+.list-data {
+    color: gray;
+    padding: 25px;
+    letter-spacing: 1px;
+}
+
+.list-data:hover {
+    color: #B0C25E;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.one {
+    width: 400px;
+}
+
+
+.d1,
+.d2,
+.d3,
+.d4,
+.d5,
+.d6 {
+    padding: 15px;
+}
+
+.heads {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+
+.heads1 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100px;
+}
+
+/* .THIRD */
+.third {
+    width: 100%;
+    height: 100vh;
+}
+
+.myrsm {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.all-data {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.edu,
+.exp {
+    margin-left: 15px;
+    color: white;
+}
+
+.datas1 {
+    width: 40%;
+    height: 50%px;
+    padding: 15px;
+    padding-top: 15px;
+}
+
+.item {
+    padding: 35px;
+    margin: 20px;
+    background: #333;
+    border: 4px solid transparent;
+    border-radius: 7px;
+    line-height: 35px;
+}
+
+.low {
+    padding-top: 25px;
+}
+
+.chage {
+    padding: 25px;
+}
+
+.date-s {
+    color: white;
+}
+
+.head-color {
+    color: #B0C25E;
+    letter-spacing: 1px;
+}
+
+/* FOURTH */
+
+.about {
+    width: 100%;
+    height: 100vh;
+    padding: 150px;
+}
+
+.all-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.foto {
+    width: 80%;
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-left: 40px;
+}
+
+.boy {
+    width: 80%;
+    height: 30%;
+}
+
+.para1 {
+    color: #727272;
+    font-size: 25px;
+    padding-bottom: 15px;
+    line-height: 35px;
+}
+
+.para2 {
+    color: #727272;
+    line-height: 30px;
+    padding-bottom: 20px;
+
+}
+.info{
+    width: 40%;
+    height: 60%;
+}
+
+.abt {
+    color: white;
+    font-size: 35px;
+    text-align: left;
+    padding: 25px;
+}
+
+.tap {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.hire {
+    width: 120px;
+    height: 40px;
+    background-color: #BAC964;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.me {
+    color: white;
+}
+
+.download {
+    width: 150px;
+    height: 40px;
+    background-color: #6C757D;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv {
+    color: white;
+}
+
+/* FIFTH */
+.client-name{
+    background-color: #212223;
+}
+#test{
+    text-align: center;
+    padding: 20px;
+}
+.client{
+    color: white;
+    font-weight: 100;
+}
+.testimonial{
+    color: white;
+    font-weight: 900;
+    padding-left: 10px;
+
+}
+/* #triangle{
+    width: 40px;
+    height: 40px;
+    color: rgb(189, 35, 35);
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(100% 1%, 1% 0, 100% 100%);
+    background-color: #333333;
+
+} */
+
+.triangle{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    position: absolute;
+    left: 18.6%;
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(100% 1%, 1% 0, 100% 100%);
+    background-color: #333333;
+
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+}
+.texts{
+    width: 470px;
+    height: 220px;
+    background-color: #333333;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px;
+}
+.short{
+    margin-right: 40px;
+}
+.short2{
+    margin-left: 40px;
+}
+.logo{
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    margin-bottom: 42px;
+    margin-top: 30px;
+}
+#means{
+    color: #777777;
+    font-size: 100;
+    line-height: 25px;
+}
+#blockquote{
+    padding-top: 25px;
+}
+.note{
+    color: #BAC649;
+    font-style: italic;
+}
+#title{
+    font-size: 15px;
+    color: #777777;
+    font-style: italic;
+}
+/* SIXTH */
+.services{
+    background-color: #212223;
+    padding: 70px;
+}
+.my-services1{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+#services{
+    padding: 80px;
+    text-align: center;
+}
+#services{
+    color: white;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.web-design{
+    background-color: #333333;
+    width: 25%;
+    height: 40%;
+    margin-right: 40px;
+
+}
+.search{
+    background-color: #333333;
+    width: 25%;
+    height: 30%;
+    margin-right: 40px;
+}
+.icon{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: #B2C251;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    color: black;
+}
+svg{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+#web-design{
+    margin: 30px 0;
+    text-align: center;
+    color: white;
+}
+.text1{
+    text-align: center;
+    line-height: 25px;
+    color: #777777;
+    padding: 10px;
+}
+
+.hov{
+    color: #B2C251;
+}
+.hov:hover i{
+    margin-left: 7px;
+    transition: 0.5s;
+}
+.hov:hover span{
+    padding-right: 7px;
+}
+.link{
+    text-align: center;
+    padding: 30px;
+}
+/* SEVEN */
+.blog{
+    background-color: #212223;
+    position: relative;
+    padding: 80px;
+}
+.blog-head{
+    text-align: center;
+    color: white;
+    padding-bottom: 80px;
+}
+#blog{
+    font-family: "Helvetica-Neue";
+    font-weight:100;
+}
+#size{
+    font-weight: 900;
+}
+.photos{
+    margin: 0 100px;
+    display: flex;
+}
+.data-text{
+    padding: 25px;
+}
+.photo-1{
+    background-color: #333333;
+    width: 40%;
+    height: 40%;
+    position: relative;
+    margin-left: 40px;
+}
+.photo-1:hover{
+    bottom: 3px;
+}
+#post1{
+    width: 100%;
+}
+ .links-1{
+    padding-left: 25px;
+ }
+
+#post-link{
+    font-size: 25px;
+    color: white;
+}
+#post-link:hover{
+    color: #B2C251;
+}
+
+#meaning{
+    color: #606060;
+    font-size: 20px;
+}
+#link1{
+    color: #606060;
+    margin-right: 15px;
+}
+#link2{
+    color: #606060;
+}
+#link1:hover{
+    color: #B2C251;
+}
+#link2:hover{
+    color: #B2C251;
+}
+#comments{
+    color: #606060;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+/* EIGHT */
+#get{
+    color: white;
+    font-weight: 100;
+    font-family: "Helvetica-Neue";
+}
+#in-touch{
+    color: white;
+    font-weight: 900;
+    padding-left: 10px;
+}
+#get-t{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.get-t{
+    background-color: #212223;
+}
+#get-head{
+    display: flex;
+    justify-content: center;
+    margin: 20px 200px;
+}
+#get-head{
+    text-align: center;
+    color: white;
+    padding-bottom: 80px;
+}
+.get-in{
+    width: 55%;
+}
+
+.get-top{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    font-size: 35px;
+}
+input{
+    display: block;
+    width: 90%;
+    height: 7%;
+    background-color: #333333;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+    font-size: 15px;
+    border: 0px;
+}
+textarea{
+    width: 90%;
+    height: 50%;
+    display: block;
+    border: 0;
+    background-color: #373737;
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 15px;
+    font-size: 20px;
+}
+button{
+    display: flex;
+    justify-content: flex-start;
+}
+#click{
+    background-color: #B2C251;
+    color: white;
+    border: 0;
+    border-radius: 40px;
+    width: 25%;
+    height: 50px;
+    margin: 40px  25px ;
+    font-size: 19px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#click:hover{
+    opacity: 1;
+}
+.contact-details{
+    width: 50%;
+    height: 40%;
+    margin-left: 25px;
+}
+#contact-details{
+    color: white;
+    font-size: 35px;
+    display: flex;
+}
+
+#email{
+    color: #2C3E50;
+    display: flex;
+    text-align: left;
+}
+#email-f{
+    color: #2C3E50;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+.email-ul{
+    margin-top: 20px;
+}
+.email-li{
+    color: #606060;
+    display:block;
+    padding: 15px 0;
+}
+.email-ul li{
+    list-style-type: none;
+    display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+}
+
+/* END */
+
+.foot{
+    text-align: center;
+    font-size: 18px;
+}
+.colorlib{
+    color: #B2C251;
+    opacity: 1;
+}
+.colorlib:hover{
+   opacity: 1;
+}
+.heart{
+    color: red;
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.facebook {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #333333;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.twitter {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #333333;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.instagram {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #333333;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+
+.linkedin {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #333333;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.vimeo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#333333;   
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px; 
+}
+
+
+.facebook-icon {
+    color: #B2C251;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-icon {
+    color: #B2C251;
+    font-size: 25px;
+    padding-top: 12px;
+}
+
+.instagram-icon{
+    color: #B2C251;
+    font-size: 25px;
+    padding-top: 12px;
+  
+}
+
+.linkedin-icon{
+    color: #B2C251;
+    font-size: 25px;
+    padding-top:12px ;
+}
+
+.vimeo-icon{
+    color: #B2C251;
+    font-size: 25px;
+    padding-top: 12px;
+}
